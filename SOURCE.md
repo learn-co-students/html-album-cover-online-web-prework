@@ -1,25 +1,52 @@
-<!-- FRONT -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML Album Cover</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="front" class="album">
+        <div id="title-box">
 
-PHARRELL WILLIAMS
+          <!-- Level 4 'PHARRELL WILLIAMS' Header -->
+          <h4>PHARRELL WILLIAMS</h4>
 
-HAPPY
+          <!-- Level 2 'HAPPY' Header -->
+          <h2>HAPPY</h2>
 
-| FROM DESPICABLE ME 2 |
+          <!-- Level 4 '| FROM DESPICABLE ME...' Header -->
+          <h4>| FROM DESPICABLE ME 2 |</h4>
 
-<!-- BACK -->
+        </div>
+      </div>
 
-| &nbsp;&nbsp; FROM DESPICABLE ME 2 &nbsp;&nbsp; |
+      <div id="back" class="album">
 
-HAPPY
+        <!-- Level 3 '| FROM DESPICABLE ME...' Header -->
+        <h3>| &nbsp;&nbsp; FROM DESPICABLE ME 2 &nbsp;&nbsp; |</h3>
 
-WRITTEN BY PHARRELL WILLIAMS
+        <!-- Level 1 'HAPPY' Header -->
+        <h1>HAPPY</h1>
 
-PUBLISHED BY EMI APRIL MUSIC, INC. OBO ITSELF AND MORE WATERFROM NAZARETH (ASCAP) / UNIVERSAL PICTURES MUSIC (ASCAP) | BACKGROUND VOCALS PERFORMED BY RHEA DUMMETT, TREVON HENDERSON, ASHLEY L. LEE, SHAMIKA HIGHTOWER, JASMINE MURRAY AND TERRENCE ROLLE | PRODUCED BY PHARRELL WILLIAMS | RECORDED BY MIKE LARSON FOR I AM OTHER ENTERTAINMENT AT CIRCLE HOUSE STUDIOS, MIAMI, FL | ASSISTED BY MATTHEW DESRAMEAUX | DIGITAL EDITING AND ARRANGEMENT BY ANDREW COLEMAN AND MIKE LARSON FOR I AM OTHER ENTERTAINMENT | MIXED BY LESLIE BRATHWAITE AT MUSIC BOX STUDIOS, ATLANTA, GA.
+        <!-- Level 3 'WRITTEN BY...' Header -->
+		<h3>WRITTEN BY PHARRELL WILLIAMS</h3>
+        <!-- pararaph text 'PUBLISHED BY...' -->
+		<p>PUBLISHED BY EMI APRIL MUSIC, INC. OBO ITSELF AND MORE WATERFROM NAZARETH (ASCAP) / UNIVERSAL PICTURES MUSIC (ASCAP) | BACKGROUND VOCALS PERFORMED BY RHEA DUMMETT, TREVON HENDERSON, ASHLEY L. LEE, SHAMIKA HIGHTOWER, JASMINE MURRAY AND TERRENCE ROLLE | PRODUCED BY PHARRELL WILLIAMS | RECORDED BY MIKE LARSON FOR I AM OTHER ENTERTAINMENT AT CIRCLE HOUSE STUDIOS, MIAMI, FL | ASSISTED BY MATTHEW DESRAMEAUX | DIGITAL EDITING AND ARRANGEMENT BY ANDREW COLEMAN AND MIKE LARSON FOR I AM OTHER ENTERTAINMENT | MIXED BY LESLIE BRATHWAITE AT MUSIC BOX STUDIOS, ATLANTA, GA.</p>
+        <!-- span text 'PHARRELLWILLIAMS.COM' -->
+		<span>PHARRELLWILLIAMS.COM</span>
+        <!-- display the images hosted on [https://s3.amazonaws.com/learn-verified/columbia-logo.png] -->
+		<img src="https://s3.amazonaws.com/learn-verified/columbia-logo.png" alt="Pharrell, Happy, From Despicable Me 2">
+        <!-- span text 'COLUMBIARECORDS.COM' -->
+        <span>COLUMBIARECORDS.COM</span>
 
-PHARRELLWILLIAMS.COM
+        <br>
 
-[columbia-logo.png]
+        <!-- display the images hosted on [https://s3.amazonaws.com/learn-verified/sony-logo.png] -->
+        <img src="https://s3.amazonaws.com/learn-verified/sony-logo.png" alt="Back cover art">
 
-COLUMBIARECORDS.COM
-
-[sony-logo.png]
+      </div>
+    </div>
+  </body>
+</html>
